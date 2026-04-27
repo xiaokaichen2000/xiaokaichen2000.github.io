@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. candidate in the Edwardson School of Industrial Engineering, Purdue University and I am currently in my fifth year of my Ph.D. I am fortunate to be supervised by [Prof. Gesualdo Scutari](https://engineering.purdue.edu/~gscutari/). Prior to joining Purdue, I obtained my Bachelor's degree in Applied Mathematics in Chinese University of Hong Kong (Shenzhen).
+I am a Ph.D. candidate in the Edwardson School of Industrial Engineering, Purdue University and I am currently in my fifth year of my Ph.D. I am fortunate to be supervised by [Prof. Gesualdo Scutari](https://engineering.purdue.edu/~gscutari/). Prior to joining Purdue, I obtained my Bachelor's degree in Applied Mathematics in Chinese University of Hong Kong, Shenzhen.
 
 Research Interests
 ======
