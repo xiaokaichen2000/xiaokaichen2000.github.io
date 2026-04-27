@@ -15,7 +15,7 @@ Research Interests
 My research interests focus on the design and analysis of optimization algorithms, particularly on the intersection between optimization and machine learning, including distributed (large-scale) optimization, statistical machine learning, nonconvex optimization and etc. Currently, I am working on the topic of parameter-free decentralized optimization for my PhD dissertation. Moreover, I am interested in the topics like game theory, variational analysis and computer vision.
 
 
-Outside of the Research
+Beyond the Research
 ======
 
-Besides research, I am a big fan of basketball, weightlifting and hiking. I am also a freshman in bouldering.
+In my leisure time, I enjoy playing basketball and weightlifting. I started to become a fan of hiking after my Ph.D. and I am also a freshman in bouldering.
