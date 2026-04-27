@@ -18,4 +18,4 @@ My research interests focus on the design and analysis of optimization algorithm
 Beyond the Research
 ======
 
-In my leisure time, I enjoy playing basketball and weightlifting. I started to become a fan of hiking after my Ph.D. and I am also a freshman in bouldering.
+In my leisure time, I enjoy playing basketball and weightlifting. I am now a big fan of hiking after starting my Ph.D. and I am also a freshman in bouldering.
