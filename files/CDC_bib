@@ -1,0 +1,10 @@
+@INPROCEEDINGS{11312133,
+  author={Chen, Xiaokai and Kuruzov, Ilya and Scutari, Gesualdo and Gasnikov, Alexander},
+  booktitle={2025 IEEE 64th Conference on Decision and Control (CDC)}, 
+  title={A Parameter-free Decentralized Algorithm for Composite Convex Optimization}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1544-1551},
+  keywords={Measurement;Backtracking;Adaptive systems;Convex functions;Optimization;Convergence;Adaptive stepsize;convex optimization;decentralized optimization;networks},
+  doi={10.1109/CDC57313.2025.11312133}}
