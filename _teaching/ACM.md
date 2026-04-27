@@ -1,6 +1,8 @@
 ---
 title: "Referee of IEEE/ACM Transactions on Networking"
-collection: portfolio
+collection: teaching
+type: "Journal Review"
+date: 2026
 ---
 
 
