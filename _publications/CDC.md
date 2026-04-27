@@ -3,7 +3,7 @@ title: "A Parameter-free Decentralized Algorithm for Composite Convex Optimizati
 collection: publications
 category: conferences
 permalink: /publication/CDC
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
+excerpt: 'In this paper, we present the first parameter-free decentralized algorithm for composite convex optimization problems with preliminary analysis.'
 date: 2025-12-12
 venue: ' 2025 IEEE 64th Conference on Decision and Control (CDC)'
 paperurl: 'https://xiaokaichen2000.github.io/files/CDC_paper.pdf'
