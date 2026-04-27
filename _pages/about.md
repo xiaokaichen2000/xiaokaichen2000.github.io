@@ -12,7 +12,7 @@ I am a Ph.D. candidate in the Edwardson School of Industrial Engineering, Purdue
 Research Interests
 ======
 
-My research interests focus on the design and analysis of optimization algorithms, particularly on the intersection between optimization and machine learning, including distributed (large-scale) optimization, statistical machine learning, nonconvex optimization and etc. Currently, I am working on the topic of parameter-free decentralized optimization for my Ph.D. dissertation. Moreover, I am interested in the topics like game theory, variational analysis and computer vision.
+My research interests focus on the design and analysis of optimization algorithms, particularly on the intersection between optimization and machine learning, including distributed (large-scale) optimization, statistical machine learning, nonconvex optimization and etc. Currently, I am working on the topic of parameter-free decentralized optimization for my Ph.D. dissertation. Moreover, I am also interested in topics like game theory, variational analysis and computer vision.
 
 
 Beyond the Research
