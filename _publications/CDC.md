@@ -1,7 +1,7 @@
 ---
 title: "A Parameter-free Decentralized Algorithm for Composite Convex Optimization"
 collection: publications
-category: Working Papers
+category: conferences
 permalink: /publication/CDC
 excerpt: 'In this paper, we propose the first parameter-free decentralized algorithm for composite convex optimization problems with preliminary analysis.'
 date: 2025-12-12
