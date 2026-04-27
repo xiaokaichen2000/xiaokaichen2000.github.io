@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/CDC
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 20026-01-12
+date: 2025-12-12
 venue: ' 2025 IEEE 64th Conference on Decision and Control (CDC)'
 slidesurl: 'https://xiaokaichen2000.github.io/files/CDC_slides_v3.pdf'
 paperurl: 'https://xiaokaichen2000.github.io/files/CDC_paper.pdf'
