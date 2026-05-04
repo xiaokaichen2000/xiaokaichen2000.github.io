@@ -2,7 +2,7 @@
 title: "A Line-search-free Method for Adaptive Decentralized Optimization"
 collection: publications
 category: conferences
-permalink: /publication/Asilomar
+permalink: /publication/ASILOMAR
 excerpt: 'We proposed an adaptive decentralized algorithm for convex optimization without extra line-search steps.'
 date: 2026-05-01
 venue: 'arXiv'
