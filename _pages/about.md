@@ -31,4 +31,4 @@ Currently, I am working on the topic of parameter-free decentralized optimizatio
 Beyond the Research
 ======
 
-In my leisure time, I enjoy playing basketball and weightlifting. I am now a big fan of hiking after starting my Ph.D. and I am also a freshman in bouldering.
+I am a big fan of basketball, hiking and weightlifting. I am also a freshman in bouldering.
