@@ -7,6 +7,7 @@ excerpt: 'We provide a full analysis on the convergence bahavior of gradient tra
 date: 2026-12
 venue: 'IEEE Transactions on Automatic Control'
 paperurl: 'https://xiaokaichen2000.github.io/files/TAC_paper.pdf'
+bibtexurl: 'https://xiaokaichen2000.github.io/files/TAC_bib.bib'
 ---
 
 
