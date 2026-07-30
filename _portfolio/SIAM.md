@@ -1,4 +1,4 @@
 ---
-title: "Referee of SIAM Journal on Optimization"
+title: "SIAM Journal on Optimization"
 collection: portfolio
 ---
