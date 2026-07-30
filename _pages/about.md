@@ -19,12 +19,12 @@ Educations
 Research Interests
 ======
 
-<font size=3> My research focuses on the design and analysis of optimization algorithms, particularly on the intersection between optimization and machine learning, including:
-- Distributed (large-scale) optimization
-- Statistical machine learning and distributed inference 
-- Nonconvex optimization
-- ...
+<font size=3> My research focuses on the design and analysis of optimization algorithms, particularly on the intersection between optimization and machine learning, including:</font>
+- <font size=3>Distributed (large-scale) optimization</font>
+- <font size=3>Statistical machine learning and distributed inference </font>
+- <font size=3>Nonconvex optimization</font>
+- <font size=3>...</font>
 
-Currently, I am working on the topic of parameter-free decentralized optimization for my Ph.D. dissertation. Moreover, I am also interested in topics like game theory, variational analysis and computer vision.</font>
+<font size=3>Currently, I am working on the topic of parameter-free decentralized optimization for my Ph.D. dissertation. Moreover, I am also interested in topics like game theory, variational analysis and computer vision.</font>
 
 
