@@ -13,7 +13,7 @@ I am a Ph.D. candidate of the Edwardson School of Industrial Engineering, Purdue
 Educations
 ======
 
-- <font size=2> B.S. in Applied Mathemetics, Chinese University of Hong Kong, Shenzhen, Sep. 2018 - Jun. 2022
+- <font size=2> B.S. in Applied Mathemetics, Chinese University of Hong Kong, Shenzhen, Sep. 2018 - Jun. 2022 </font>
 - Ph.D. (undergoing) in Operations Reserach, Purdue University, West Lafayette, Aug. 2022 - May. 2027 (anticipated)
 
 Research Interests
