@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-<font size=3>I am a Ph.D. candidate of the Edwardson School of Industrial Engineering, Purdue University. I am fortunate to be supervised by [Prof. Gesualdo Scutari](https://engineering.purdue.edu/~gscutari/) and it's going to be my fifth year starting from 2026 Fall. </font>
+I am a Ph.D. candidate of the Edwardson School of Industrial Engineering, Purdue University. I am fortunate to be supervised by [Prof. Gesualdo Scutari](https://engineering.purdue.edu/~gscutari/) and it's going to be my fifth year starting from 2026 Fall. 
 
 
 Educations
