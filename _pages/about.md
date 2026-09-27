@@ -31,6 +31,6 @@ Research Interests
 Beyond Research
 ======
 
--<font size=3>We will be good friends if you also like IPA and Bourbon whiskey. I am a fan of basketball, powerlifting and bouldering. Hiking is my first option during the vacation. I will appear at HYROX race in Nashville in this December and I hope I can survive.</font>
+<font size=3>We will be good friends if you also like IPA and Bourbon whiskey. I am a fan of basketball, powerlifting and bouldering. Hiking is my first option during the vacation. I will appear at HYROX race in Nashville in this December and I hope I can survive.</font>
 
 
