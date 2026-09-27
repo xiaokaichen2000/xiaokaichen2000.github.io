@@ -27,9 +27,10 @@ Research Interests
 
 <font size=3>Currently, I am working on the topic of parameter-free decentralized optimization for my Ph.D. dissertation. I am also interested in topics like game theory, variational analysis and computer vision.</font>
 
+
 Beyond Research
 ======
 
--<font size=3>We will be good friends if you also like IPA and Bourbon whiskey. I am a fan of basketball, powerlifting and bouldering. Hiking is my first option during the vacation. I will appear at HYROX race in Nashville in this December and I hope I can survive.  
+-<font size=3>We will be good friends if you also like IPA and Bourbon whiskey. I am a fan of basketball, powerlifting and bouldering. Hiking is my first option during the vacation. I will appear at HYROX race in Nashville in this December and I hope I can survive.</font>
 
 
