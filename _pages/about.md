@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. candidate of the Edwardson School of Industrial Engineering, Purdue University. I am fortunate to be supervised by [Prof. Gesualdo Scutari](https://engineering.purdue.edu/~gscutari/) and it's going to be my fifth year starting from 2026 Fall. 
+I am a Ph.D. candidate of the Edwardson School of Industrial Engineering, Purdue University. I am fortunate to be supervised by [Prof. Gesualdo Scutari](https://engineering.purdue.edu/~gscutari/). This is my fifth year here.
 
 
 Educations
@@ -26,5 +26,10 @@ Research Interests
 - <font size=3>...</font>
 
 <font size=3>Currently, I am working on the topic of parameter-free decentralized optimization for my Ph.D. dissertation. I am also interested in topics like game theory, variational analysis and computer vision.</font>
+
+Beyond Research
+======
+
+-<font size=3>We will be good friends if you also like IPA and Bourbon whiskey. I am a fan of basketball, powerlifting and bouldering. Hiking is my first option during the vacation. I will appear at HYROX race in Nashville in this December and I hope I can survive.  
 
 
