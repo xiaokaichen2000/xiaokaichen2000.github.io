@@ -1,3 +1,12 @@
+# Updating this site
+
+- **News**: add an entry to `_data/news.yml` (date, tag, text, optional link). The home page shows the latest four; `/news/` shows everything, grouped by year. Future-dated items are marked "Upcoming" automatically.
+- **Publications**: one Markdown file per paper in `_publications/`. Useful front-matter fields: `authors`, `venue`, `year`, `status` (Published / Accepted / Under review), `arxiv`, `doi`, `officialurl`, `paperurl`, `slidesurl`, `bibtexurl`, and `order` (controls the sort order on the page).
+- **Teaching / Service**: files in `_teaching/` and `_portfolio/` (service entries use `kind: journal` or `kind: conference`).
+- **Look and feel**: colors and fonts are the design tokens in `_sass/theme/_default_light.scss` and `_default_dark.scss`; component styles are in `_sass/_custom.scss`.
+
+---
+
 # Academic Pages
 **Academic Pages is a GitHub Pages template for personal and professional portfolio-oriented websites.**
 

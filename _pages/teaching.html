@@ -7,6 +7,9 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
+{% assign teaching_items = site.teaching | sort: "date" | reverse %}
+<ol class="entries">
+{% for post in teaching_items %}
+  {% include teach-item.html post=post %}
 {% endfor %}
+</ol>

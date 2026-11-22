@@ -34,23 +34,29 @@ $navicon-height             : 4px;
 $sidebar-link-max-width     : 250px;
 $sidebar-screen-min-width   : 1024px;
 
-/* Dark theme for the site */
+/* Dark theme for the site: deep slate, soft ivory text, pale-teal accent */
 html[data-theme="dark"] {
-    --global-base-color                 : #{$primary-color};
-    --global-bg-color                   : #{$background};
-    --global-footer-bg-color            : #{$background};
-    --global-border-color               : #{$light-gray};
-    --global-dark-border-color          : #{$background-light};
-    --global-code-background-color      : #fafafa;
-    --global-code-text-color            : #{$darker-gray};
-    --global-fig-caption-color          : #{$light-gray};
-    --global-link-color                 : #{$link};
-    --global-link-color-hover           : #{$link-dark};
-    --global-link-color-visited         : #{$link-light};
-    --global-masthead-link-color        : #{$text};
-    --global-masthead-link-color-hover  : #{$primary-color};
-    --global-text-color                 : #{$text};
-    --global-text-color-light           : #f3f3f3;
-    --global-thead-color                : #{$background-lighter};
-}
+    --global-base-color                 : #7fc3dc;
+    --global-bg-color                   : #14181d;
+    --global-footer-bg-color            : #101317;
+    --global-border-color               : #2a313a;
+    --global-dark-border-color          : #343c47;
+    --global-code-background-color      : #1b2128;
+    --global-code-text-color            : #d5d8dd;
+    --global-fig-caption-color          : #98a0ab;
+    --global-link-color                 : #7fc3dc;
+    --global-link-color-hover           : #b4e0ef;
+    --global-link-color-visited         : #9bc9da;
+    --global-masthead-link-color        : #a7aeb8;
+    --global-masthead-link-color-hover  : #7fc3dc;
+    --global-text-color                 : #e7e5e0;
+    --global-text-color-light           : #98a0ab;
+    --global-thead-color                : #1b2128;
 
+    --accent-gold                       : #d2b25f;
+    --accent-gold-text                  : #d9bb68;
+    --surface-color                     : #1a1f26;
+    --chip-bg                           : #1f252d;
+    --chip-border                       : #2f3742;
+    --shadow-soft                       : 0 1px 2px rgba(0, 0, 0, 0.3), 0 8px 24px -12px rgba(0, 0, 0, 0.5);
+}

@@ -37,7 +37,7 @@ layout: default
         {% if page.collection == 'teaching' %}
           <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.venue and page.date %}
-          <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
+          <p>{% if page.authors %}{{ page.authors }}<br />{% endif %}<i>{{ page.venue }}</i>{% if page.year %}, {{ page.year }}{% endif %}</p>
         {% elsif page.date %}
           <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% endif %}    
@@ -47,30 +47,19 @@ layout: default
       <section class="page__content" itemprop="text">
         {{ content }}
 
-        {% if page.citation and page.paperurl and page.slidesurl and page.bibtexurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
-        {% elsif page.citation and page.paperurl and page.slidesurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a></p>
-        {% elsif page.citation and page.paperurl and page.bibtexurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
-        {% elsif page.citation and page.paperurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a></p>
-        {% elsif page.citation and page.slidesurl and page.bibtexurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
-        {% elsif page.citation and page.slidesurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Download Slides</a></p>
-        {% elsif page.slidesurl and page.bibtexurl %}
-          <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
-        {% elsif page.paperurl and page.bibtexurl %}
-          <p style="font-size: smaller"><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
-        {% elsif page.citation and page.bibtexurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
-        {% elsif page.citation %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}</p>
-        {% elsif page.slidesurl %}
-          <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Download Slides</a></p>
-        {% elsif page.bibtexurl %}
-          <p style="font-size: smaller"><a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
+        {% if page.collection == 'publications' and page.excerpt %}<p>{{ page.excerpt | markdownify | remove: "<p>" | remove: "</p>" | strip }}</p>{% endif %}
+
+        {% if page.citation %}<p style="font-size: smaller">Recommended citation: {{ page.citation }}</p>{% endif %}
+
+        {% if page.paperurl or page.arxiv or page.doi or page.officialurl or page.slidesurl or page.bibtexurl %}
+        <p class="pub__links">
+          {% if page.paperurl %}<a class="chip" href="{{ page.paperurl }}"><i class="fa-solid fa-file-pdf" aria-hidden="true"></i>Paper</a>{% endif %}
+          {% if page.arxiv %}<a class="chip" href="https://arxiv.org/abs/{{ page.arxiv }}"><i class="ai ai-arxiv" aria-hidden="true"></i>arXiv</a>{% endif %}
+          {% if page.officialurl %}<a class="chip" href="{{ page.officialurl }}"><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>Journal page</a>{% endif %}
+          {% if page.doi %}<a class="chip" href="https://doi.org/{{ page.doi }}"><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>IEEE Xplore</a>{% endif %}
+          {% if page.slidesurl %}<a class="chip" href="{{ page.slidesurl }}"><i class="fa-solid fa-chalkboard-user" aria-hidden="true"></i>Slides</a>{% endif %}
+          {% if page.bibtexurl %}<a class="chip" href="{{ page.bibtexurl }}"><i class="fa-solid fa-quote-left" aria-hidden="true"></i>BibTeX</a>{% endif %}
+        </p>
         {% endif %}
 
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}

@@ -1,0 +1,33 @@
+{%- comment -%}
+  Renders the news feed from _data/news.yml.
+  Params:  limit   - max number of items (default: all)
+           grouped - true to insert a year heading whenever the year changes
+  NOTE: output is deliberately flush-left. This include is used inside a Markdown
+  page (about.md), where indented lines would be parsed as code blocks.
+{%- endcomment -%}
+{%- assign news_items = site.data.news | sort: "date" | reverse -%}
+{%- assign max_items = include.limit | default: 999 -%}
+{%- assign now_ts = site.time | date: "%s" | plus: 0 -%}
+{%- assign prev_year = "" -%}
+{%- for item in news_items limit: max_items -%}
+{%- assign item_year = item.date | date: "%Y" -%}
+{%- if include.grouped -%}
+{%- if item_year != prev_year -%}
+{%- unless forloop.first -%}</ol>{%- endunless -%}
+<h2 class="entries__year">{{ item_year }}</h2>
+<ol class="entries">
+{%- assign prev_year = item_year -%}
+{%- endif -%}
+{%- elsif forloop.first -%}
+<ol class="entries">
+{%- endif -%}
+{%- assign item_ts = item.date | date: "%s" | plus: 0 -%}
+<li class="entry"><div class="entry__meta"><time class="entry__date" datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: "%b %Y" }}</time>{%- if item.tag -%}<span class="entry__tag entry__tag--{{ item.tag | downcase }}">{{ item.tag }}</span>{%- endif -%}</div><div class="entry__body">
+{%- if item_ts > now_ts -%}<span class="pill pill--upcoming">Upcoming</span> {% endif -%}
+{{ item.text | markdownify | remove: "<p>" | remove: "</p>" | strip }}
+{%- if item.link -%}
+{%- if item.link contains "://" -%}{%- assign item_href = item.link -%}{%- else -%}{%- assign item_href = item.link | relative_url -%}{%- endif %} <a class="entry__link" href="{{ item_href }}">{{ item.link_label | default: "Read" }}&nbsp;&rarr;</a>
+{%- endif -%}
+</div></li>
+{%- if forloop.last -%}</ol>{%- endif -%}
+{%- endfor -%}

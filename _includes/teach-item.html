@@ -1,0 +1,9 @@
+{% comment %}  One teaching entry. Usage: {% include teach-item.html post=post %}  {% endcomment %}
+{% assign t = include.post %}
+<li class="entry">
+  <div class="entry__meta"><time class="entry__date" datetime="{{ t.date | date: '%Y-%m-%d' }}">{{ t.date | date: "%Y" }}</time></div>
+  <div class="entry__body">
+    <span class="entry__title">{{ t.title }}</span>
+    <span class="entry__sub">{{ t.type }}{% if t.venue %} &middot; {{ t.venue }}{% endif %}</span>
+  </div>
+</li>

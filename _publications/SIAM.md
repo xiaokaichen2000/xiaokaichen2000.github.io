@@ -3,10 +3,14 @@ title: "Adaptive Decentralized Composite Optimization via Three-Operator Splitti
 collection: publications
 category: manuscripts
 permalink: /publication/SIAM
-excerpt: 'In this paper, we provide a full analysis on our proposed parameter-free algorithm DATOS for composite convex optimization. The manuscript is submitted for publication.'
+order: 3
+authors: "Xiaokai Chen, Ilya Kuruzov, Gesualdo Scutari"
+excerpt: 'Full analysis of DATOS, our parameter-free algorithm for decentralized composite convex optimization, built on a three-operator splitting with a new BCV preconditioning metric. Sublinear rates under convexity, linear rates under strong convexity.'
 date: 2026-02-19
-venue: 'arXiv (under review)'
+venue: 'arXiv preprint arXiv:2602.17545'
+year: 2026
+status: "Under review"
+arxiv: "2602.17545"
 paperurl: 'https://xiaokaichen2000.github.io/files/SIAM_paper.pdf'
 bibtexurl: 'https://xiaokaichen2000.github.io/files/SIAM_bib.bib'
 ---
-

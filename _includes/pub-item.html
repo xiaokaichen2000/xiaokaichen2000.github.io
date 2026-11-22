@@ -1,0 +1,21 @@
+{% comment %}  One publication entry. Usage: {% include pub-item.html post=post %}  {% endcomment %}
+{% assign p = include.post %}
+{% if p.officialurl %}{% assign main_href = p.officialurl %}
+{% elsif p.doi %}{% capture main_href %}https://doi.org/{{ p.doi }}{% endcapture %}
+{% elsif p.paperurl %}{% assign main_href = p.paperurl %}
+{% else %}{% assign main_href = p.url | relative_url %}{% endif %}
+<article class="pub">
+  <h3 class="pub__title"><a href="{{ main_href }}">{{ p.title }}</a></h3>
+  {% if p.authors %}<p class="pub__authors">{{ p.authors | replace: "Xiaokai Chen", "<strong>Xiaokai Chen</strong>" }}</p>{% endif %}
+  <p class="pub__venue"><em>{{ p.venue }}</em>{% if p.year %}, {{ p.year }}{% endif %}{% if p.status %}<span class="pill pill--{{ p.status | downcase | replace: ' ', '-' }}">{{ p.status }}</span>{% endif %}</p>
+  {% if p.award %}<p class="pub__award"><i class="fa-solid fa-trophy" aria-hidden="true"></i>{{ p.award }}</p>{% endif %}
+  {% if p.excerpt %}<p class="pub__abstract">{{ p.excerpt | markdownify | remove: "<p>" | remove: "</p>" | strip }}</p>{% endif %}
+  <p class="pub__links">
+    {% if p.paperurl %}<a class="chip" href="{{ p.paperurl }}"><i class="fa-solid fa-file-pdf" aria-hidden="true"></i>Paper</a>{% endif %}
+    {% if p.arxiv %}<a class="chip" href="https://arxiv.org/abs/{{ p.arxiv }}"><i class="ai ai-arxiv" aria-hidden="true"></i>arXiv</a>{% endif %}
+    {% if p.officialurl %}<a class="chip" href="{{ p.officialurl }}"><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>Journal page</a>{% endif %}
+    {% if p.doi %}<a class="chip" href="https://doi.org/{{ p.doi }}"><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>IEEE Xplore</a>{% endif %}
+    {% if p.slidesurl %}<a class="chip" href="{{ p.slidesurl }}"><i class="fa-solid fa-chalkboard-user" aria-hidden="true"></i>Slides</a>{% endif %}
+    {% if p.bibtexurl %}<a class="chip" href="{{ p.bibtexurl }}"><i class="fa-solid fa-quote-left" aria-hidden="true"></i>BibTeX</a>{% endif %}
+  </p>
+</article>

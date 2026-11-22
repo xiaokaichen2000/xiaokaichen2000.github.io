@@ -26,23 +26,30 @@ $navicon-height             : 4px;
 $sidebar-link-max-width     : 250px;
 $sidebar-screen-min-width   : 1024px;
 
-/* Default light theme for the site */
+/* Default light theme for the site: warm paper, ink text, deep-teal accent */
 :root {
-    --global-base-color                 : #{$primary-color};
-    --global-bg-color                   : #fff;
-    --global-footer-bg-color            : #f2f3f3;
-    --global-border-color               : #{$lighter-gray};
-    --global-dark-border-color          : #bdc1c4;
-    --global-code-background-color      : #fafafa;
-    --global-code-text-color            : #{$darker-gray};
-    --global-fig-caption-color          : mix(#fff,  #{$dark-gray}, 25%);
-    --global-link-color                 : #52adc8;
-    --global-link-color-hover           : mix(#000, #2f7f93, 25%);
-    --global-link-color-visited         : mix(#fff, #2f7f93, 25%);  
-    --global-masthead-link-color        : #{$dark-gray};
-    --global-masthead-link-color-hover  : mix(#000, #{$gray}, 25%);    
-    --global-text-color                 : #{$dark-gray};
-    --global-text-color-light           : #{$light-gray};
-    --global-thead-color                : #{$lighter-gray};
-}
+    --global-base-color                 : #1d5a73;
+    --global-bg-color                   : #fbfaf8;
+    --global-footer-bg-color            : #f4f2ed;
+    --global-border-color               : #e8e4dc;
+    --global-dark-border-color          : #d9d4c9;
+    --global-code-background-color      : #f4f2ed;
+    --global-code-text-color            : #3b4048;
+    --global-fig-caption-color          : #6a6f78;
+    --global-link-color                 : #1d5a73;
+    --global-link-color-hover           : #0f3a4d;
+    --global-link-color-visited         : #3f6f84;
+    --global-masthead-link-color        : #5b616b;
+    --global-masthead-link-color-hover  : #1d5a73;
+    --global-text-color                 : #23272e;
+    --global-text-color-light           : #6a6f78;
+    --global-thead-color                : #f1eee7;
 
+    /* extra tokens used by _custom.scss */
+    --accent-gold                       : #b4913f;
+    --accent-gold-text                  : #8a6a1a;
+    --surface-color                     : #ffffff;
+    --chip-bg                           : #f1eee7;
+    --chip-border                       : #e3ded3;
+    --shadow-soft                       : 0 1px 2px rgba(35, 39, 46, 0.04), 0 8px 24px -12px rgba(35, 39, 46, 0.12);
+}

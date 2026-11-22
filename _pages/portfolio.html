@@ -1,14 +1,29 @@
 ---
 layout: archive
-title: "Referee"
+title: "Service"
 permalink: /portfolio/
 author_profile: true
 ---
 
 {% include base_path %}
 
+<p class="archive__lede">I regularly review for the following journals and conferences.</p>
 
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
+{% assign service_items = site.portfolio | sort: "title" %}
+{% assign groups = "journal,conference" | split: "," %}
+{% for g in groups %}
+  {% assign shown = false %}
+  {% for item in service_items %}
+    {% if item.kind != g %}{% continue %}{% endif %}
+    {% unless shown %}
+      <h2>{% if g == "journal" %}Journals{% else %}Conferences{% endif %}</h2>
+      <ul class="plain-list">
+      {% assign shown = true %}
+    {% endunless %}
+    <li>{{ item.title }}</li>
+  {% endfor %}
+  {% if shown %}
+    {% if g == "journal" %}<li class="plain-list__more">and others</li>{% endif %}
+    </ul>
+  {% endif %}
 {% endfor %}
-
