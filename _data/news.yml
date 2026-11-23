@@ -15,23 +15,23 @@
 
 - date: 2026-10-25
   tag: Award
-  text: "Won **the first place in the Student Paper Contest** at the 60th Asilomar Conference on Signals, Systems, and Computers (Oct 25–28, Pacific Grove, CA) for *A Line-search-free Method for Adaptive Decentralized Optimization*."
+  text: "Won **the first place in the Student Paper Contest** at the *60th Asilomar Conference on Signals, Systems, and Computers* (Oct 25–28, Pacific Grove, CA) for **A Line-search-free Method for Adaptive Decentralized Optimization**."
   link: /files/Asilomar_paper.pdf
   link_label: "Paper"
 
 - date: 2026-07-21
   tag: Conference
-  text: "Our paper *A Line-search-free Method for Adaptive Decentralized Optimization* is accepted at the **60th Asilomar Conference on Signals, Systems, and Computers**."
+  text: "Our paper **A Line-search-free Method for Adaptive Decentralized Optimization** is accepted at the *60th Asilomar Conference on Signals, Systems, and Computers*."
 
 - date: 2026-07-01
   tag: Paper
-  text: "**Enhancing Convergence of Decentralized Gradient Tracking under the KL Property** is accepted for pulication in the *IEEE Transactions on Automatic Control*, joint work with Gesualdo Scutari and Tianyu Cao."
+  text: "Our paper **Enhancing Convergence of Decentralized Gradient Tracking under the KL Property** is accepted for pulication in the *IEEE Transactions on Automatic Control*."
   link: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11610859
   link_label: "IEEE TAC"
 
 - date: 2026-05-01
   tag: Paper
-  text: "Posted *A Line-search-free Method for Adaptive Decentralized Optimization* on arXiv: adaptive stepsizes for decentralized optimization with no line search and no global tuning."
+  text: "Posted **A Line-search-free Method for Adaptive Decentralized Optimization** on arXiv: adaptive stepsizes for decentralized optimization with no line search and no global tuning."
   link: https://arxiv.org/abs/2605.00711
   link_label: "arXiv"
 
@@ -43,44 +43,44 @@
 
 - date: 2026-02-09
   tag: Paper
-  text: "**DCatalyst: A Unified Accelerated Framework for Decentralized Optimization** is accepted for publication in the *Journal of Machine Learning Research* (vol. 27, no. 47), joint work with Tianyu Cao and Gesualdo Scutari."
+  text: "**DCatalyst: A Unified Accelerated Framework for Decentralized Optimization** is accepted for publication in the *Journal of Machine Learning Research*."
   link: https://jmlr.org/papers/v27/25-0185.html
   link_label: "JMLR"
 
 - date: 2026-01-26
   tag: Life
-  text: "Passed my preliminary exam and officialy become a PhD candidate :)"
+  text: "Passed my preliminary exam and officialy become a PhD candidate :)."
 
 - date: 2025-12-10
   tag: Conference
-  text: "Presented *A Parameter-free Decentralized Algorithm for Composite Convex Optimization* at the **64th IEEE Conference on Decision and Control (CDC)** in Rio de Janeiro, Brazil."
+  text: "Presented **A Parameter-free Decentralized Algorithm for Composite Convex Optimization** at the *64th IEEE Conference on Decision and Control (CDC)* in Rio de Janeiro, Brazil."
   link: /files/CDC_slides.pdf
   link_label: "Slides"
 
 - date: 2025-07-31
   tag: Paper
-  text: "Posted *Adaptive stepsize selection in decentralized convex optimization* on arXiv. It resolves the local min-consensus issue of earlier adaptive decentralized methods through a dual stepsize policy."
+  text: "Posted **Adaptive stepsize selection in decentralized convex optimization** on arXiv. It resolves the local min-consensus issue of earlier adaptive decentralized methods through a dual stepsize policy."
   link: https://arxiv.org/abs/2507.23725
   link_label: "arXiv"
 
 - date: 2025-07-17
   tag: Paper
-  text: "**A Parameter-free Decentralized Algorithm for Composite Convex Optimization** is accepted by the **64th IEEE Conference on Decision and Control (CDC)**."
+  text: "Our paper **A Parameter-free Decentralized Algorithm for Composite Convex Optimization** is accepted by the *64th IEEE Conference on Decision and Control (CDC)*."
   link: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11312133
   link_label: "CDC"
 
 - date: 2025-01-30
   tag: Paper
-  text: "Posted *DCatalyst: A Unified Accelerated Framework for Decentralized Optimization* on arXiv."
+  text: "Posted **DCatalyst: A Unified Accelerated Framework for Decentralized Optimization** on arXiv."
   link: https://arxiv.org/abs/2501.18114
   link_label: "arXiv"
 
 - date: 2024-12-12
   tag: Paper
-  text: "Posted *Enhancing Convergence of Decentralized Gradient Tracking under the KL Property* on arXiv."
+  text: "Posted **Enhancing Convergence of Decentralized Gradient Tracking under the KL Property** on arXiv."
   link: https://arxiv.org/abs/2412.09556
   link_label: "arXiv"
 
 - date: 2022-08-21
   tag: Life
-  text: "Join The school of Industrial Engineering, Purdue University as a PhD student, advised by Prof. Gesualdo Scutari."
+  text: "Joined The school of Industrial Engineering, Purdue University as a PhD student, advised by Prof. Gesualdo Scutari."
