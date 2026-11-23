@@ -41,9 +41,9 @@
   link: https://arxiv.org/abs/2602.17545
   link_label: "arXiv"
 
-- date: 2026-02-01
+- date: 2026-02-09
   tag: Paper
-  text: "**DCatalyst: A Unified Accelerated Framework for Decentralized Optimization** is published in the *Journal of Machine Learning Research* (vol. 27, no. 47), joint work with Tianyu Cao and Gesualdo Scutari."
+  text: "**DCatalyst: A Unified Accelerated Framework for Decentralized Optimization** is accepted for publication in the *Journal of Machine Learning Research* (vol. 27, no. 47), joint work with Tianyu Cao and Gesualdo Scutari."
   link: https://jmlr.org/papers/v27/25-0185.html
   link_label: "JMLR"
 
