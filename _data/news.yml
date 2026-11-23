@@ -47,6 +47,10 @@
   link: https://jmlr.org/papers/v27/25-0185.html
   link_label: "JMLR"
 
+- date: 2026-01-26
+  tag: Life
+  text: "Passed my preliminary exam and officialy become a PhD candidate :)"
+
 - date: 2025-12-10
   tag: Conference
   text: "Presented *A Parameter-free Decentralized Algorithm for Composite Convex Optimization* at the **64th IEEE Conference on Decision and Control (CDC)** in Rio de Janeiro, Brazil."
@@ -76,3 +80,7 @@
   text: "Posted *Enhancing Convergence of Decentralized Gradient Tracking under the KL Property* on arXiv."
   link: https://arxiv.org/abs/2412.09556
   link_label: "arXiv"
+
+- date: 2022-08-21
+  tag: Life
+  text: "Join The school of Industrial Engineering, Purdue University as a PhD student, advised by Prof. Gesualdo Scutari."
