@@ -9,6 +9,7 @@ excerpt: 'Convergence analysis of the gradient-tracking algorithm SONATA for non
 date: 2024-12-12
 venue: 'IEEE Transactions on Automatic Control'
 year: 2026
+status: "Published"
 arxiv: "2412.09556"
 paperurl: 'https://xiaokaichen2000.github.io/files/TAC_paper.pdf'
 bibtexurl: 'https://xiaokaichen2000.github.io/files/TAC_bib.bib'
