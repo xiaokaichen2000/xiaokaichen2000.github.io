@@ -37,7 +37,7 @@
 
 - date: 2026-02-19
   tag: Paper
-  text: "Posted the full analysis of our parameter-free algorithm DATOS, *Adaptive Decentralized Composite Optimization via Three-Operator Splitting*, on arXiv. The manuscript is submitted for publication."
+  text: "Posted *Adaptive Decentralized Composite Optimization via Three-Operator Splitting*, on arXiv. It provides the full analysis of our parameter-free algorithm DATOS."
   link: https://arxiv.org/abs/2602.17545
   link_label: "arXiv"
 
@@ -57,6 +57,18 @@
   tag: Paper
   text: "Posted *Adaptive stepsize selection in decentralized convex optimization* on arXiv. It resolves the local min-consensus issue of earlier adaptive decentralized methods through a dual stepsize policy."
   link: https://arxiv.org/abs/2507.23725
+  link_label: "arXiv"
+
+- date: 2025-07-17
+  tag: Paper
+  text: "**A Parameter-free Decentralized Algorithm for Composite Convex Optimization** is accepted by the **64th IEEE Conference on Decision and Control (CDC)**."
+  link: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11312133
+  link_label: "CDC"
+
+- date: 2025-01-30
+  tag: Paper
+  text: "Posted *DCatalyst: A Unified Accelerated Framework for Decentralized Optimization* on arXiv."
+  link: https://arxiv.org/abs/2501.18114
   link_label: "arXiv"
 
 - date: 2024-12-12
