@@ -10,27 +10,6 @@ redirect_from:
 I am a Ph.D. candidate in the Edwardson School of Industrial Engineering at Purdue University, advised by [Prof. Gesualdo Scutari](https://engineering.purdue.edu/~gscutari/). I am in my fifth year and expect to graduate in May 2027.
 {: .lead}
 
-## Latest news
-
-{% include news-list.html limit=4 %}
-
-<p class="more-link"><a href="{{ '/news/' | relative_url }}">All news &rarr;</a></p>
-
-## Research
-
-My research focuses on the design and analysis of optimization algorithms, particularly at the intersection of optimization and machine learning. I work on:
-
-- Distributed (large-scale) optimization
-- Statistical machine learning and distributed inference
-- Nonconvex optimization
-
-Currently, I am working on **parameter-free decentralized optimization** for my dissertation. Recent threads:
-
-- **Adaptive, parameter-free decentralized methods.** Stepsize rules that each agent sets locally from past iterates and gradients, with no global knowledge of the network or problem constants (CDC 2025, Asilomar 2026, and two preprints).
-- **Acceleration.** DCatalyst, a black-box framework that adds Nesterov-type acceleration to decentralized algorithms (JMLR 2026).
-- **Nonconvex decentralized optimization.** Convergence rates of gradient tracking under the Kurdyka–Łojasiewicz property.
-
-Beyond these, I am also interested in game theory, variational analysis, and computer vision. See my [publications]({{ '/publications/' | relative_url }}) for details.
 
 ## Education
 
@@ -51,6 +30,30 @@ Beyond these, I am also interested in game theory, variational analysis, and com
   </li>
 </ol>
 
+## Research
+My research focuses on the design and analysis of optimization algorithms, particularly at the intersection of optimization and machine learning. I work on:
+
+- Distributed (large-scale) optimization
+- Statistical machine learning and distributed inference
+- Nonconvex optimization
+
+Currently, I am working on **parameter-free decentralized optimization** for my dissertation. Recent threads:
+
+- **Adaptive, parameter-free decentralized methods.** Stepsize rules that each agent sets locally from past iterates and gradients, with no global knowledge of the network or problem constants (CDC 2025, Asilomar 2026, and two preprints).
+- **Acceleration.** DCatalyst, a black-box framework that adds Nesterov-type acceleration to decentralized algorithms (JMLR 2026).
+- **Nonconvex decentralized optimization.** Convergence rates of gradient tracking under the Kurdyka–Łojasiewicz property.
+
+Beyond these, I am also interested in game theory, variational analysis, and computer vision. See my [publications]({{ '/publications/' | relative_url }}) for details.
+
+
+## Latest news
+
+{% include news-list.html limit=4 %}
+
+<p class="more-link"><a href="{{ '/news/' | relative_url }}">All news &rarr;</a></p>
+
+
+
 ## Beyond research
 
-We will be good friends if you also like IPA and bourbon whiskey. I am a fan of basketball, powerlifting, and bouldering, and hiking is my first choice on vacation. I will be at the HYROX race in Nashville this December, and I hope I can survive.
+We will be good friends if you also like IPA and bourbon whiskey. I am a fan of basketball and bouldering, and hiking is my first choice on vacation. 
